@@ -16,14 +16,14 @@ from utils import load_model, infer_uploaded_image, infer_uploaded_video, infer_
 
 # setting page layout
 st.set_page_config(
-    page_title="Classroom Phone Usage Detector",
+    page_title="Detection of Person Talking on Phone",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
     )
 
 # main page heading
-st.title("Classroom Phone Usage Detector")
+st.title("Detection of Person Talking on Phone")
 
 # sidebar
 st.sidebar.header("DL Model Config")
