@@ -2,11 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-Project name: Detection of person talking with mobile in no mobile zone
-Team name: Forger House
+Project name: Classroom Phone Usage Detection System
 Team members: Anidipta Pal
-              Ankana Datta
-              Ananyo Dasgupta  
+              Ankana Datta 
 -------------------------------------------------
 """
 from pathlib import Path
@@ -18,14 +16,14 @@ from utils import load_model, infer_uploaded_image, infer_uploaded_video, infer_
 
 # setting page layout
 st.set_page_config(
-    page_title="Detection of Person Talking on Phone",
+    page_title="Classroom Phone Usage Detector",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
     )
 
 # main page heading
-st.title("Detection of Person Talking on Phone")
+st.title("Classroom Phone Usage Detector")
 
 # sidebar
 st.sidebar.header("DL Model Config")
