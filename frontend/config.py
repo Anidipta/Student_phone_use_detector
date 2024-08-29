@@ -2,11 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-Project name: Detection of person talking with mobile in no mobile zone
-Team name: Forger House
+Project name: Classroom Phone Usage Detection System
 Team members: Anidipta Pal
-              Ankana Datta
-              Ananyo Dasgupta  
+              Ankana Datta  
 -------------------------------------------------
 """
 from pathlib import Path
